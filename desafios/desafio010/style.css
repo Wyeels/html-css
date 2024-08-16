@@ -1,0 +1,184 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "android";
+    src: url("fontes/idroid.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #82D9A0;
+}
+
+header {
+    background-image: linear-gradient(to top, #1B5936, #39BF68);
+    height:auto;
+    width: auto;
+    color: aliceblue;
+    box-shadow: black 3px 3px 15px 0px;
+}
+
+header > h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+header > p.inicio {
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 0px 30px 0px;
+    height: auto;
+}
+
+header > p.menu {
+    margin: 5px;
+    padding: 5px;
+    height: 25px;
+    background-color: #1b593634;
+}
+
+header > p > span.menu {
+    font-weight: bold;
+    margin: 5px;
+    padding: 3px;
+}
+
+header > p > span.menu:hover {
+background-color: #2FA866;
+padding: 15px;
+border-radius: 4px;
+box-shadow: #1B5936 5px 5px 10px 5px;
+}
+
+main{
+    max-width: 1000px;
+    margin: auto;
+    padding: 1px;
+    background-color: #F2F2F2;
+}
+
+main > section > article > h1 {
+    font-family: "android";
+    color: #1B5936;
+    margin: 0px 20px 15px 20px;
+    padding: 20px 0px 0px 0px;
+    font-size: 30px;
+}
+
+main > section > article > h2.titulo {
+    font-family: "android";
+    background-image: linear-gradient(to right, #82D9A0, #F2F2F2);
+    margin: 15px;
+    color: #1B5936;
+}
+
+main > section > article > p {
+    margin: 10px;
+    padding: 10px;
+    text-indent: 25px;
+    text-align: justify;
+    width: auto;
+} 
+
+main > section > article > p > span.importante {
+    color: #2C4B39;
+    font-weight: bold;
+}
+
+main > section > article > picture {
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+main > section > article > p > a {
+    font-weight: bold;
+    color: #1B5936;
+    text-decoration: none;
+    background-color: #7FE1A9;
+    padding: 2px;
+
+}
+
+main > section > article > p > a:hover {
+    text-decoration: underline;
+}
+
+main > section > article > iframe {
+    display: block;
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+}
+
+footer {
+    margin: auto;
+    padding: 1px;
+    max-width: 1000px;
+    background-color: #F2F2F2;
+}
+
+footer > section > article.ultimo > h2 {
+    background-color: #1B5936;
+    color: #F2F2F2;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer > section > article > p > span.importante {
+    color: #2C4B39;
+    font-weight: bold;
+}
+
+footer > section > article > p {
+    padding: 15px;
+    margin: 15px;
+    text-indent: 25px;
+}
+
+footer > section > article > nav > ul{
+    display: inline-block;
+    margin: 5px;
+}
+
+footer > section > article > nav > ul > a {
+    text-decoration: underline dashed black 1px;
+    color: black;
+}
+
+footer > section > article.ultimo {
+    background-color: #7FE1A9;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+footer > section.creditos {
+    margin-top: 10px;
+    background-color: #1B5936;
+    padding: 5px;
+    text-align: center;
+}
+
+footer > section > article > p > span.vultoso {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer > section > article > p.final {
+    color: #F2F2F2;
+    padding: 15px;
+    margin: 0px;
+}
+
+footer > section > article > p > a {
+    font-weight: bold;
+    color: #1B5936;
+    text-decoration: none;
+    background-color: #7FE1A9;
+    padding: 2px;
+}
