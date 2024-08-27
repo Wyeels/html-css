@@ -31,7 +31,7 @@ header h1 {
     color: white;
     font-family: var(--fonte01);
     text-align: center;
-    font-size: 8vw;
+    font-size: 9vw;
 }
 
 header nav {
@@ -39,7 +39,7 @@ header nav {
     padding: 20px;
     color: white;
     font-family: var(--fonte03);
-    font-size: 4vw;
+    font-size: 2vw;
     font-style: normal;
     font-weight: lighter;
     text-align: center;
@@ -56,19 +56,21 @@ main p {
     padding: 15px;
     max-width: 50vw;
     font-family: var(--fonte02);
-    font-size: 4vw;
+    font-size: 3.5vw;
+    line-height: 35px;
 }
 
 main div.fundo01 {
-    padding: 5px;
-    background: black url(../imagens/background001.jpg) center center no-repeat fixed;
+    padding: 15px;
+    background: black url(../imagens/background001.jpg) center right no-repeat fixed;
     background-size: cover;
     box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 1.6);
 }
 
 main div.fundo01 p {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    max-width: 45vw;
 }
 
 main div.fundo02 {
@@ -79,7 +81,7 @@ main div.fundo02 {
 }
 
 main div.fundo02 p {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
 
