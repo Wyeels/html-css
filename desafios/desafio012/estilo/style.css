@@ -57,7 +57,7 @@ main p {
     max-width: 50vw;
     font-family: var(--fonte02);
     font-size: 3.5vw;
-    line-height: 35px;
+    line-height: 8vw;
 }
 
 main div.fundo01 {
@@ -86,7 +86,7 @@ main div.fundo02 p {
 }
 
 footer {
-    width: 100vw;
+    width: 98vw;
     height: 2.5vh;
     padding: 8px;
     background-color: black;
